@@ -14,7 +14,7 @@ on:
 
 env:
   REGISTRY: ghcr.io  # Use docker.io for Docker Hub if empty
-  IMAGE_NAME: ${{ github.repository }}/alpine_dev  # Updated to point to specific package
+  IMAGE_NAME: ${{ github.repository }}  # Updated to point to specific package
 
 jobs:
   build:
